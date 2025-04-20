@@ -7,3 +7,6 @@ curl -s -L https://raw.githubusercontent.com/mustafa-gokce/ardupilot-software-de
 ```
 
 3. This will install all the required Linux system packages and python modules to follow this course.
+4. Run the shell script ```./ardu-sim.sh```
+5. Check the screen sessions ```screen -ls```
+6. Connect to a vehicle ```mavproxy.py --master=127.0.0.1:14550```
